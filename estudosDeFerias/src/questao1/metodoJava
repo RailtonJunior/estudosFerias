@@ -1,0 +1,14 @@
+No o metodo é composto de: Argumentos, tipo de visibilidade, Assinatura do metodo, bloco, retorno
+
+
+Public : É o menos restritivo de todos. Atributos e métodos declarados como public
+em uma classe podem ser acessados pelos métodos da própria classe, por classes
+derivadas desta e por qualquer outra classe em qualquer outro pacote
+
+Private : É o mais restritivo. Atributos e métodos declarados como private só 
+podem ser acessados pelos métodos da própria classe.
+
+protected : Atributos e métodos definidos como protected são acessíveis pelos
+métodos da própria classe e pelas classes derivadas
+
+Operadores Lógicos: 

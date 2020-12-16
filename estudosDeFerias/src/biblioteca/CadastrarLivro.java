@@ -27,8 +27,7 @@ public class CadastrarLivro {
 //diferença de "private", "protected", "public"?
 //Faça um algoritmo que leia um número inteiro e escreva seu sucessor e seu antecessor Fornecidos 
 //separadamente o nome e o sobrenome pelo usuário, Elabore um algoritmo que exiba o nome e o sobrenome concatenados.
-//(Criar um Objeto Pessoa q contenha Nome e Sobrenome. Método q retorne nome e sobrenome juntos) Oq compoe um método? 
-//Diferença de private, protected e public? Quais são os operadores lógicos?
-//Fornecidos separadamente o nome e o sobrenome pelo usuário, Elabore um algoritmo que
-//exiba o nome e o sobrenome concatenados?
-//quais são os operadores lógicos?
+//(Criar um Objeto Pessoa q contenha Nome e Sobrenome. Método q retorne nome e sobrenome juntos)
+//Oq compoe um método? 
+//Quais são os operadores lógicos?
+
