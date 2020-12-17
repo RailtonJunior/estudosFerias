@@ -21,21 +21,18 @@ public class TestPessoa {
 		pessoa.setIdade2(sc.nextInt());
 		
 		if (pessoa.getIdade1() > pessoa.getIdade2()) {
-			System.out.println(pessoa.getNome1());
+			System.out.println("A pessoa mais velha é: "  +pessoa.getNome1());
 			int result = pessoa.getIdade1() - pessoa.getIdade2();
 			System.out.printf("\nDiferença de idade é: %d anos ", result);
 			
-		}else {
-			System.out.println(pessoa.getNome2());
+		}else if (pessoa.getIdade2() > pessoa.getIdade1()) {
+			System.out.println("A pessoa mais velha é: " +pessoa.getNome2());
 			int result = pessoa.getIdade2() - pessoa.getIdade1();
 			System.out.printf("\nDiferença de idade é: %d anos ", result);
+		} else {
+			System.out.println("Pessoas com idades iguais!!!");
 		}
-		
-		
-		
-
-		
-		
+			
 
 	}
 
