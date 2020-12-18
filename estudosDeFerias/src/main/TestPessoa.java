@@ -2,7 +2,7 @@ package main;
 
 import java.util.Scanner;
 
-import modal.Pessoa;
+import model.Pessoa;
 
 public class TestPessoa {
 

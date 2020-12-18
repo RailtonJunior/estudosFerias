@@ -2,7 +2,7 @@ package main;
 
 import java.util.Scanner;
 
-import modal.Calculadora;
+import model.Calculadora;
 
 public class TestCalculadora {
 

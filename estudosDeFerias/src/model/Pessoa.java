@@ -1,4 +1,4 @@
-package modal;
+package model;
 
 public class Pessoa {
 	//Faça um algoritmo que leia o nome (nome1 e nome2) e a idade (idade1 e idade2) de duas pessoas,
