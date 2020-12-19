@@ -44,8 +44,12 @@ public class TestCalculadora {
 				n1 = sc.nextInt();
 				System.out.println("Qual o segundo numero?? ");
 				n2 = sc.nextInt();
-				result = calculadora.dividir(n1, n2);
-				System.out.printf("\nO resultado da operação é: %d", result);
+				if ( n2 != 0) {
+					result = calculadora.dividir(n1, n2);
+					System.out.printf("\nO resultado da operação é: %d", result);
+				} else {
+					System.out.println("Não é possivel fazer o operação!! ");
+				}
 				break;	
 				
 			case 4:
