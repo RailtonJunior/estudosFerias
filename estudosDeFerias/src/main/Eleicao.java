@@ -19,11 +19,15 @@ public class Eleicao {
 	
 	public static void main(String[] args) {
 		
-		int candidato1 = 0, candidato2 = 0, candidato3 = 0, candidato4 = 0;
-		int voto, votoNulo = 0, votoBranco = 0;
+		int candidato1 = 0;
+		int candidato2 = 0;
+		int candidato3 = 0;
+		int candidato4 = 0;
+		int votoNulo = 0;
+		int votoBranco = 0;
+		int voto;
 		
 		Scanner sc = new Scanner (System.in);
-		System.out.println("Para sair, digite 0 ");
 		
 		while (true) {
 			System.out.println("MENU PARA VOTOS!!\n");
@@ -33,6 +37,7 @@ public class Eleicao {
 			System.out.println(" 4 - Candidato4: ");
 			System.out.println(" 5 - Votos nulos: ");
 			System.out.println(" 6 - Votos em branco: ");
+			System.out.println(" 0 - Para sair, digite 0 ");
 			System.out.println("\n Informe o codigo do seu candidato: ");
 			
 			voto = sc.nextInt();
